@@ -1,0 +1,26 @@
+{
+  "name": "ArticleManagement",
+  "version": "1.0.0",
+  "description": "Article Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Harshad Vasawade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "swagger-autogen": "^2.21.3",
+    "swagger-ui-express": "^4.4.0"
+  }
+}
